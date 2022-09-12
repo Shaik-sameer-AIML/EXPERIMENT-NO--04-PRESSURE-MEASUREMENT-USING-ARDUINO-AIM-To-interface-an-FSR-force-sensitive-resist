@@ -109,19 +109,18 @@ void loop()
  
  
  
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
+ ![exp 2-1](https://user-images.githubusercontent.com/93427186/189674105-add7cff0-f41a-4deb-9144-7b7fba0735ed.PNG)
 
-![image](https://user-images.githubusercontent.com/36288975/188804653-a3154e8e-2655-46f2-9dcd-f425dd1ba109.png)
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 
 
 ### TABLE -02 standard deviation table 
