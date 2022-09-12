@@ -76,10 +76,36 @@ The easiest way to measure a resistive sensor is to connect one end to power and
 
 
 ### PROGRAM 
- *your roll no 
- * your name 
- * department and year 
+ *your roll no :212221240051
+ * your name :Shaik Sameer
+ * department and year : AIML 2nd year 
+ ```
+ // C++ code
+//
+int sensorvalue=A0;
+int led=9;
+int force;
+void setup()
+{
+ sensorvalue=0;
+ Serial.begin(9600);
+ //serial.begin for serial read and 9600 for serial baud rate
+ //pinMode(led,OUTPUT);
  
+}
+
+void loop()
+{
+ sensorvalue=analogRead(A0);
+ force=map(sensorvalue,0,466,0,10);
+ Serial.print("\nraw value= ");
+ Serial.println(sensorvalue);
+ Serial.print("force= ");
+ Serial.print(force);
+ delay(1000);
+ //digitalWrite(led,sensorvalue);
+}
+ ```
  
  
  
